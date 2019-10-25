@@ -1,0 +1,247 @@
+x MSSubClass : variable qualitative nominale
+type habitation
+
+x MSZoning : variable qualitative nominale
+type de zone sur lequel est implanté l'habitat
+
+LotFrontage : variable quantitative continue
+longueur de la rue connectée à la maison
+
+x LotArea : variable quantitative continue
+Nombre de m2 du terrain
+
+Street : variable qualitative nominale
+type de rue
+
+Alley : variable qualitative nominale
+type d'allée
+
+LotShape : variable qualitative nominale
+forme de l'habitat
+
+LandContour : variable qualitative nominale
+dénivellation
+
+Utilities : variable qualitative nominale
+services publics accessibles (eau..)
+
+LotConfig : variable qualitative nominale
+type d'accès à la maison
+
+LandSlope : variable qualitative nominale
+pente
+
+x Neighborhood : variable qualitative nominale
+localisation dans la ville
+
+Condition1 : variable qualitative nominale
+proximité de certaines infra
+
+Condition2 : variable qualitative nominale 
+proximité de certaines infra (si plusieurs)
+
+x BldgType: variable qualitative nominale
+type de maison
+
+x HouseStyle: variable qualitative nominale
+style de maison
+
+x OverallQual : variable qualitative ordinale
+qualité des matériaux
+
+x OverallCond : variable qualitative ordinale
+état général
+
+YearBuilt: variable qualitative ordinale
+année de construction
+
+YearRemodAdd: variable qualitative ordinale
+année de rénovation ou construction (si non rénové)
+
+RoofStyle: variable qualitative nominale
+type de toit
+
+RoofMatl: variable qualitative nominale
+type de matériau du toit
+
+Exterior1st: variable qualitative nominale
+matériaux ext
+
+Exterior2nd: variable qualitative nominale
+matériaux ext (si plusieurs)
+
+MasVnrType : variable qualitative nominale
+type de maconnerie
+
+MasVnrArea : variable quantitative continue
+surface occupée par les murs
+
+ExterQual: variable qualitative ordinale
+qualité des matériaux ext
+
+ExterCond: variable qualitative ordinale
+condition des matériaux ext
+
+Foundation : variable qualitative nominale
+type de fondation
+
+BsmtQual: variable qualitative ordinale
+hauteur des fondations
+
+BsmtCond: variable qualitative ordinale
+condition des fondations
+
+BsmtExposure: variable qualitative ordinale
+exposition des fondations
+
+BsmtFinType1: variable qualitative nominale
+type de fondations amenagées
+
+BsmtFinSF1: variable quantitative continue
+surface des fondations aménagées
+
+BsmtFinType2 : variable qualitative nominale
+type de fondations amenagées (si plusieurs)
+
+BsmtFinSF2: variable quantitative continue
+surface des fondations aménagées (type 2)
+
+BsmtUnfSF: variable quantitative continue
+Surface de fondations non aménagées
+
+TotalBsmtSF: variable quantitative continue
+Surface totale des fondations
+
+Heating: variable qualitative nominale
+Type de chauffage
+
+HeatingQC: variable qualitative ordinale
+Qualité et condition du chauffage
+
+CentralAir : variable qualitative nominale
+Air conditionné
+
+Electrical: variable qualitative nominale
+Système électrique
+
+1stFlrSF: variable quantitative continue
+surface du premier étage
+
+2ndFlrSF: variable quantitative continue
+surface du 2eme étage
+
+LowQualFinSF: variable quantitative continue
+
+GrLivArea: variable quantitative continue
+surface d'habitation en dessous du sol
+
+BsmtFullBath: variable quantitative continue
+surface au sous-sol des salles de bain complètes
+
+BsmtHalfBath: variable quantitative continue
+surface au sous-sol des cabinets de douche
+
+FullBath: variable quantitative continue
+surface au sol des salles de bain complètes
+
+HalfBath: variable quantitative continue
+surface au sol des cabinets de douche
+
+Bedroom: variable quantitative continue
+surface au sol des chambres (non au sous-sol)
+
+Kitchen: variable quantitative continue
+surface au sol des cuisines (sous-sol???)
+
+KitchenQual: variable qualitative ordinale
+qualité de la cuisine
+
+x TotRmsAbvGrd: variable quantitative discrète
+Nombre de pièces au sol (sans compter les salles de bains)
+
+Functional: variable qualitative nominale
+
+Fireplaces: variable quantitative discrète
+nombre de cheminées
+
+FireplaceQu: variable qualitative ordinale
+qualité des cheminées
+
+GarageType: variable qualitative nominale
+localisation du garage par rapport à la maison
+
+GarageYrBlt: variable qualitative ordinale
+année de construction du garage
+
+GarageFinish: variable qualitative ordinale
+garage fini?
+
+GarageCars: variable quantitative discrète
+Capacité en nombre de voitures
+
+GarageArea: variable quantitative continue
+Nombre de m2 du garage
+
+GarageQual: variable qualitative ordinale
+Qualité du garage
+
+GarageCond: variable qualitative ordinale
+Condition du garage
+
+PavedDrive: variable qualitative nominale
+type d'allée de conduite
+
+WoodDeckSF :  variable quantitative continue
+Surface de la terrasse
+
+OpenPorchSF: variable quantitative continue
+Surface du porche d'entrée
+
+EnclosedPorch: variable quantitative continue
+Surface de la véranda
+
+3SsnPorch: variable quantitative continue
+Surface de la véranda (type différent)
+
+ScreenPorch: variable quantitative continue
+Surface de la véranda (type différent)
+
+PoolArea: variable quantitative continue
+Surface de la piscine
+
+PoolQC: variable qualitative ordinale
+Qualité de la piscine
+
+Fence: variable qualitative ordinale
+Qualité de la cloture
+
+MiscFeature: variable qualitative nominale
+autres éléments notables
+
+MiscVal: variable quantitative continue
+Valeur en dollars de l'élément précédent
+
+MoSold: variable qualitative ordinale
+Mois de vente
+
+YrSold: variable qualitative ordinale
+Année de vente
+
+SaleType: variable qualitative nominale
+Type de vente
+
+x SaleCondition: variable qualitative nominale
+Conditions de vente
+
+Commentaires :
+- Parfois plusieurs conditions
+- Pour les surfaces par type de pièce, créer des nouvelles variables sans prendre en compte si c'est au sol ou sous-sol?
+- Quand NA valeur possible, peut on considérer que c'est ordinal?
+
+
+
+
+
+
+
+
